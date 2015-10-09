@@ -9,7 +9,10 @@ public class ModBlocks {
     public static void init() {
         sculptor = new Sculptor();
         GameRegistry.registerBlock(sculptor, "sculptor");
+        GameRegistry.registerTileEntity(SculptorTE.class, "sculptor");
+
         sculpture = new Sculpture();
         GameRegistry.registerBlock(sculpture, "sculpture");
+        GameRegistry.registerTileEntity(SculptureTE.class, "sculpture");
     }
 }
