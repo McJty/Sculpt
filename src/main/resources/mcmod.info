@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sculpt",
+  "name": "Sculpt",
+  "description": "Sculpt detailed blocks",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["McJty"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
