@@ -1,4 +1,4 @@
-package mcjty.gearswap.proxy;
+package mcjty.sculpt.proxy;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
