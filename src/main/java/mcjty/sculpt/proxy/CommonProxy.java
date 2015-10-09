@@ -3,6 +3,7 @@ package mcjty.sculpt.proxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import mcjty.sculpt.blocks.ModBlocks;
 
 public abstract class CommonProxy {
 
@@ -13,7 +14,7 @@ public abstract class CommonProxy {
 //        readMainConfig();
 
 //        ModItems.init();
-//        ModBlocks.init();
+        ModBlocks.init();
 //        ModCrafting.init();
 //
 //        PacketHandler.registerMessages("gearswapper");
